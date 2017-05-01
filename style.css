@@ -1,0 +1,113 @@
+body{
+	color: #0041C2;
+  font-family: Junge, serif;
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 90%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+h1{
+	text-align: center;
+}
+
+li{
+	display: inline;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0041C2;
+}
+
+/* mouse over link */
+a:hover{
+  color:gray;
+}
+
+/* for my nav elements */
+ul{
+  display:inline-block;
+  padding-bottom: 50px;
+}
+
+footer{
+  font-size: 50%;
+  text-align: center;
+}
+
+#links{
+  float: right;
+}
+
+#wr-logo{
+  font-size: 180%;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+
+#subtitle{
+  padding: 0px;
+}
+
+p{
+  text-align: center;
+  color: gray;
+  margin-left: 225px;
+  margin-right: 225px;
+  font-family: 'Cormorant+Garamond';
+}
+
+/* to center images */
+.wrapper{
+  text-align: center;
+}
+
+/* Image transition upon hover */
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position: absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+#project1{
+  border: 1px dotted black;
+  float: left;
+  line-height: 0;
+}
+
+#project1:hover{
+  opacity: .5;
+}
+
+#sectionFour{
+  padding-top: 150px;
+}
+
+
